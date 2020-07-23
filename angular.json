@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "asana"
+    }
+  },
+  "defaultProject": "asana",
+  "cli": {
+    "analytics": "f8d7b997-db61-41e6-9248-d15e9b45720b"
+  }
 }
